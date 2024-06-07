@@ -5,12 +5,12 @@ const router = express.Router();
 router.use("/tasks", require("./tasks"));
 
 /* GET home page. */
-router.get("/", function(req, res, next) {
-  res.json({ message: "Welcome to the homepage" });
+router.get("/", function (req, res, next) {
+  res.json({ message: "Welcome to Emanuel Marques site" });
 });
 
 /* Test Route */
-router.get("/test", function(req, res, next) {
+router.get("/test", function (req, res, next) {
   res.json({ result: "Test success!" });
 });
 
